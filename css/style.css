@@ -1,0 +1,26 @@
+body {
+    background-color: #e5e5e5;
+    font-family: 'Raleway', sans-serif;
+}
+
+a .btn {
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 430px) {
+    .largeQr {
+        display: block;
+    }
+    .smallQr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .smallQr {
+        display: block;
+    }
+    .largeQr {
+        display: none;
+    }
+}
